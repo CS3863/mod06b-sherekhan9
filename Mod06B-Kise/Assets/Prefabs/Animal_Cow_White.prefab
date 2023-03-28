@@ -656,6 +656,7 @@ GameObject:
   - component: {fileID: 8547003568494572977}
   - component: {fileID: 8547003568494572978}
   - component: {fileID: 4473470592348540937}
+  - component: {fileID: 8193025846004172325}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -737,6 +738,18 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 20, y: 25, z: 50}
   m_Center: {x: 0, y: 12.3, z: 0}
+--- !u!114 &8193025846004172325
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547003568501995667}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c056944859ddc8e418b026c6bf5dce9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8547003568546045310
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,6 +1402,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8547003569177549580}
   - component: {fileID: 8547003569177549579}
+  - component: {fileID: 4709762713066125198}
   m_Layer: 0
   m_Name: SA_Animals_Cow_White
   m_TagString: Untagged
@@ -1508,6 +1522,18 @@ SkinnedMeshRenderer:
     m_Center: {x: 0, y: -7.0392914, z: 19.432642}
     m_Extent: {x: 5.5862083, y: 16.289497, z: 24.204412}
   m_DirtyAABB: 0
+--- !u!114 &4709762713066125198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8547003569177549581}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c056944859ddc8e418b026c6bf5dce9f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &8547003569243175748
 GameObject:
   m_ObjectHideFlags: 0
